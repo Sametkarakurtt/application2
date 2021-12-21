@@ -186,7 +186,6 @@ body {
         display: inline-block;
     }
     .footer  .footer-navbar ul li a {
-    
     color: #5c6bc0;
     font-family: Montserrat;
     font-size: 18px;
@@ -215,3 +214,81 @@ body {
         float: right;
         padding-right: 25px;
     }
+
+    .general-menu {
+        /* Felx Elemanlarını tek tek denemesi yapılacak. */
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        /* Box Sizing özelliği için araştıma bekliyorum senden. */
+        box-sizing: border-box;
+
+        width: 100%;
+        max-width: 980px;
+        margin-bottom: 3em;
+        border-radius: 10px;
+        background-color: #0f2747;
+        padding: 19px 19px 19px 43px;
+        box-shadow: -1px 8px 8px rgb(5 20 40 / 22%);
+    }
+
+    .general-menu .avatar > img {
+        border-radius: 100%;
+    }
+
+    .general-menu .general-nav-list {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .general-menu .general-nav-list .general-nav-list-item {
+        margin-right: 65px;
+    }
+    /* :last-child ve benzeri elemanların araştrılması yapılacak. */
+    .general-menu .general-nav-list .general-nav-list-item:last-child {
+        margin-left: auto;
+        margin-right: 25px;
+    }
+
+    .general-menu .general-nav-list .general-nav-list-link {
+        font-size: 18px;
+        color: #5c6bc0;
+        font-weight: 400;
+        line-height: 36px;
+        font-style: normal;
+        text-decoration: none;
+        letter-spacing: normal;
+    }
+
+    .general-menu .general-nav-list .general-nav-list-link:hover {
+        border-bottom: 1px solid #ff9800;
+        color:#ffffff;
+    }
+
+    .general-menu .general-nav-list .general-nav-list-link.bell {
+        font-size: 35px;
+        position: relative;
+    }
+
+    .general-menu .general-nav-list .general-nav-list-link.bell:before {
+        content: attr(data-counter);
+        top: -10px;
+        right: -10px;    
+        width: 27px;
+        height: 27px;
+        font-size: 15px;
+        color: #011632;
+        font-weight: 700;
+        line-height: 27px;
+        font-style: normal;
+        position: absolute;
+        text-align: center;
+        border-radius: 100%;
+        letter-spacing: normal;
+        background-color: #ff9800;
+    }
+
+    
