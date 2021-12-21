@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-.icon .container{
+.icon {
     width: 100%;
     max-width: 102px;
     box-shadow: -1px 8px 8px rgba(5, 20, 40, 0.22);
@@ -22,12 +22,12 @@ body {
     margin-top: 60px;
     margin-bottom: 30px;
     }
-.icon .container .icon-linkedin  i {
+.icon  .icon-linkedin  i {
     padding: 34px 34px;
     color: #ffffff;
     font-size: 30px;
 }
-.content .container{
+.content {
     width: 100%;
     max-width: 879px;
     box-shadow: -1px 8px 8px rgba(5, 20, 40, 0.22);
@@ -36,7 +36,7 @@ body {
     padding: 56px 0px 13px 53px ;
     margin-bottom: 3em;
 }
-.content .container .comments h2 {
+.content  .comments h2 {
     color: #ffffff;
     font-family: "Montserrat - Semi Bold";
     font-size: 20px;
@@ -46,19 +46,19 @@ body {
     line-height: 36px;
     margin-bottom: 39px;
 }
-.content .container .col2{
+.content  .col2{
     display: flex;
 }
-.content .container .resim img {
+.content  .resim img {
     border-radius: 100%;
     border: 10px #051428 solid;
     opacity: 0.51;
 }
-.content .container .col2 .text{
+.content  .col2 .text{
     padding-left: 25px;
     margin-bottom: 30px;
 }
-.content .container .col2 .text h4{
+.content  .col2 .text h4{
     color: #ffffff;
     font-family: Montserrat;
     font-size: 15px;
@@ -68,7 +68,7 @@ body {
     line-height: 36px;
     display:inline-flex;
 }
-.content .container .col2 .text p {
+.content  .col2 .text p {
     color: #ffffff;
     font-family: Montserrat;
     font-size: 15px;
@@ -77,7 +77,7 @@ body {
     letter-spacing: normal;
     line-height: 23px;
 }
-.content .container .col2 .text a {
+.content  .col2 .text a {
     color: #ff9800;
     font-family: Montserrat;
     font-size: 15px;
@@ -87,7 +87,7 @@ body {
     line-height: 23px;
     text-decoration: none;
 }
-.content .container .col2 .text .zaman{
+.content  .col2 .text .zaman{
     color: #5c6bc0;
     font-family: Montserrat;
     font-size: 12px;
@@ -97,7 +97,7 @@ body {
     line-height: 36px;
     display:inline-flex;
 }
-.profile .container{
+.profile {
     width: 100%;
     max-width: 475px;
     box-shadow: -1px 8px 8px rgba(5, 20, 40, 0.22);
@@ -107,14 +107,14 @@ body {
     text-align: center;
     margin-bottom: 3em;
 }
-.profile .container .profil .resim img{
+.profile  .profil .resim img{
     border-radius: 100%;
     background-color: #051428;
     opacity: 0.51;
     border: 30px #051428 solid;
 }
 
-.profile .container .profil h1 {
+.profile  .profil h1 {
     color: #ffffff;
     font-family: "Montserrat - Extra Light";
     font-size: 35px;
@@ -123,7 +123,7 @@ body {
     letter-spacing: normal;
     line-height: 36px;
 }
-.profile .container .profil h3{
+.profile  .profil h3{
     color: #5c6bc0;
     font-family: Montserrat;
     font-size: 18px;
@@ -133,12 +133,12 @@ body {
     line-height: 36px;
     margin-bottom: 65px;
 }
-.profile .container .profil li {
+.profile  .profil li {
     margin-bottom: 65px;
     float: left;
     padding-left:  80px;
 }
-.profile .container .profil h5{
+.profile  .profil h5{
     color: #5c6bc0;
     font-family: Montserrat;
     font-size: 18px;
@@ -147,7 +147,7 @@ body {
     letter-spacing: normal;
     line-height: normal;
 }
-.profile .container .profil li p{
+.profile  .profil li p{
     color: #ffffff;
     font-family: "Montserrat - Bold";
     font-size: 25px;
@@ -156,12 +156,12 @@ body {
     letter-spacing: normal;
     line-height: 36px;
 }
-.profile .container form.profil-button button {
+.profile  form.profil-button button {
     border-radius: 3px;
     background-color: #ff9800;
     border: 0px;
 }
-.profile .container form.profil-button  p{
+.profile  form.profil-button  p{
     color: #091d37;
     font-family: "Montserrat - Semi Bold";
     font-size: 18px;
@@ -171,15 +171,54 @@ body {
     line-height: 36px;
     padding: 5px 30px;
 }
-@media screen and (max-width:768px) {
+.footer   {
+    width: 979px;
+    box-shadow: -1px 8px 8px rgba(5, 20, 40, 0.22);
+    border-radius: 10px;
+    background-color: #0f2747;
+    margin-bottom: 3em;
+    }
+    .footer  .footer-navbar nav {
+        padding: 0px 19px 19px 43px;
+    }
+    .footer  .footer-navbar .resim{
+        padding: 9px 19px 19px 0px;
     
-    body{
-        width: 100%;
     }
-    .content{
-        width: 100%;
+    .footer  .footer-navbar .resim img{
+        float:right;
+        border-radius: 100%;
     }
-    .profile{
-        width: 100%;
+    .footer  .footer-navbar ul li{
+        display: inline-block;
     }
-}
+    .footer  .footer-navbar ul li a {
+    
+    color: #5c6bc0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-decoration: none;
+    padding-bottom: .25em;
+    }
+    .footer  .footer-navbar ul li a:hover{
+        background-size: 20%;
+        border-bottom: 0;
+        padding-bottom: .3em;
+        border-bottom: 1px solid #ff9800;
+        color:#ffffff;
+    }
+    
+    .footer  .footer-navbar ul li a i {
+        padding-right:  10px;
+    }
+    .footer  .footer-navbar .about {
+        padding: 0 65px;
+    }
+    .footer .footer-navbar nav .bell {
+        float: right;
+        padding-right: 25px;
+    }
