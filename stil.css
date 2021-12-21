@@ -36,13 +36,17 @@ body {
     padding: 56px 0px 13px 53px ;
     margin-bottom: 3em;
 }
+.content .text{
+    font-style: normal;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-family: Montserrat;
+}
 .content  .comments h2 {
     color: #ffffff;
     font-family: "Montserrat - Semi Bold";
     font-size: 20px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 36px;
     margin-bottom: 39px;
 }
@@ -60,40 +64,25 @@ body {
 }
 .content  .col2 .text h4{
     color: #ffffff;
-    font-family: Montserrat;
     font-size: 15px;
     font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 36px;
     display:inline-flex;
 }
 .content  .col2 .text p {
     color: #ffffff;
-    font-family: Montserrat;
     font-size: 15px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 23px;
 }
 .content  .col2 .text a {
     color: #ff9800;
-    font-family: Montserrat;
     font-size: 15px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 23px;
     text-decoration: none;
 }
 .content  .col2 .text .zaman{
     color: #5c6bc0;
-    font-family: Montserrat;
     font-size: 12px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 36px;
     display:inline-flex;
 }
