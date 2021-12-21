@@ -135,9 +135,13 @@ body {
 }
 .profile  .profil li {
     margin-bottom: 65px;
-    float: left;
-    padding-left:  80px;
+    display: inline-block;
 }
+.profile .profil .fallowing {
+    margin-left:87px;
+    margin-right: 68px;
+}
+
 .profile  .profil h5{
     color: #5c6bc0;
     font-family: Montserrat;
