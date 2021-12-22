@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="font-awesome/css/all.css">
@@ -16,25 +19,31 @@
 
     <div class="icon">
             <div class="icon-linkedin">
-                <a href="https://tr.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://tr.linkedin.com/" class="iconBanner" data-counter="6">
+                    <i class="fab fa-linkedin-in "></i>
+                </a>
             </div>
     </div>
 
     <div class="content">
-            <div class="comments">
-                <h2>24 Comments</h2>
+            <div class="title">
+                <h2> 24 Comments</h2>
             </div>
             <div class="col2">
                 <div class="resim">
                     <img src="https://via.placeholder.com/62">
                 </div>
                 <div class="text">
-                    <h4>Frances P. Troia</h4>
-                    <p class="zaman">2 hours ago</p>
-                    <p>Malesuada nunc rhoncus ullamcorper pellentesque adipiscing nisl, non mauris per <br>
-                        ullamcorper. Semper cras etiam quis eu nulla, elementum tellus morbi nec <br>
-                        maecenas.</p>
-                        <a href="#" >Reply</a>
+                    <div class="listHeader">
+                        <h4>Frances P. Troia</h4>
+                        <p class="zaman">2 hours ago</p>
+                    </div>
+                    <div class="yazi">
+                        <p>Malesuada nunc rhoncus ullamcorper pellentesque adipiscing nisl, non mauris per 
+                            ullamcorper. Semper cras etiam quis eu nulla, elementum tellus morbi nec 
+                            maecenas.</p>
+                    </div>
+                        <div class="listReply"> <a href="#">Reply</a></div>
                         <p>View 3 replies <img src="ok.png"></p>
                 </div>
             </div>
@@ -43,11 +52,14 @@
                     <img src="https://via.placeholder.com/62">
                 </div>
                 <div class="text">
-                    <h4>David Saunders</h4>
-                    <p class="zaman">3 hours ago</p>
-                    <p>Enim pellentesque ultricies diam, praesent turpis amet torquent, mattis mollis <br>
-                        vehicula nulla libero.</p>
-                        <a href="#" >Reply</a>
+                    <div class="listHeader">
+                        <h4>Frances P. Troia</h4>
+                        <p class="zaman">2 hours ago</p>
+                    </div>
+                    <div class="yazi">
+                        <p>Enim pellentesque ultricies diam, praesent turpis amet torquent, mattis mollis vehicula nulla libero.</p>
+                    </div>
+                        <div class="listReply" style="margin: 0;"> <a href="#">Reply</a></div>
                 </div>
             </div>
             <div class="col2">
@@ -55,16 +67,17 @@
                     <img src="https://via.placeholder.com/62">
                 </div>
                 <div class="text">
-                    <h4>Manuel Hall</h4>
-                    <p class="zaman">Yesterday</p>
-                    <p> Aperiam montes, velit felis pretium quam ante, sem suspendisse duis lacus,<br>
-                        habitasse curae velit felis in. Dictum lectus ut in vel, magna vestibulum mattis laoreet <br>
-                        illum, urna purus mauris scelerisque platea occaecat nunc, fusce dolor sit. Id sit orci <br>
-                        viverra pellentesque.</p>
-                        <a href="#" >Reply</a>
-                        <p>View 6 replies <img src="ok.png"></p>
+                    <div class="listHeader">
+                        <h4>Frances P. Troia</h4>
+                        <p class="zaman">2 hours ago</p>
+                    </div>
+                    <div class="yazi">
+                        <p> Aperiam montes, velit felis pretium quam ante, sem suspendisse duis lacus, habitasse curae velit felis in. Dictum lectus ut in vel, magna vestibulum mattis laoreet illum, urna purus mauris scelerisque platea occaecat nunc, fusce dolor sit. Id sit orci viverra pellentesque.</p>
+                    </div>
+                        <div class="listReply"> <a href="#">Reply</a></div>
+                        <p >View 3 replies <img src="ok.png"></p>
                 </div>
-            </div>               
+            </div>             
     </div>
 
     <div class="profile">
@@ -79,27 +92,40 @@
                     <li class="fallowing"><p>1477<h5>Following</h5></p></li>
                     <li><p>874<h5>Followers</h5></p></li>
                 </ul>
-                    <form class="profil-button">
-                        <button type="submit"><p>Follow</p></button>
-                    </form>
+                        <button><p>Follow</p></button>
+
             </div>
     </div>
-    <footer>
-        <div class="footer">
-                <div class="footer-navbar">
-                    <div class="resim">
-                        <img src="https://via.placeholder.com/62">
-                    </div>
-                    <nav>
-                        <ul>
-                            <li><a href="#"><i class="far fa-images"></i>Gallery</a></li>
-                            <li class="about"><a href="#"><i class="fas fa-file-signature"></i></i>About</a></li>
-                            <li><a href="#"><i class="far fa-images"></i>Gallery</a></li>
-                            <li class="bell"><a href="#"><i class="far fa-bell"></i></a></li>
-                        </ul>
-                    </nav>
-                </div>
+
+    <nav class="general-menu">
+        <div class="avatar">
+            <img src="https://via.placeholder.com/62" width="62" height="62">
         </div>
-    </footer>
+        <ul class="general-nav-list">
+            <li class="general-nav-list-item">
+                <a href="javascript:;" class="general-nav-list-link">
+                    <i class="far fa-images"></i>
+                    <span>Gallery</span>
+                </a>
+            </li>
+            <li class="general-nav-list-item">
+                <a href="javascript:;" class="general-nav-list-link">
+                    <i class="fas fa-file-signature"></i>
+                    <span>About</span>
+                </a>
+            </li>
+            <li class="general-nav-list-item">
+                <a href="javascript:;" class="general-nav-list-link">
+                    <i class="far fa-images"></i>
+                    <span>Gallery</span>
+                </a>
+            </li>
+            <li class="general-nav-list-item">
+                <a href="javascript:;" class="general-nav-list-link bell" data-counter="4">
+                    <i class="far fa-bell"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </body>
 </html>
